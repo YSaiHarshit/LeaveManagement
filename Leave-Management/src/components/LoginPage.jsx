@@ -61,7 +61,7 @@ function Login() {
     return (
 
         <div className="bg-blue-400">
-            <img className="mt-10  ml-20" src="src\assets\Kris.jpg" alt="kris" />
+            <img className="ml-20" src="src\assets\Kris.jpg" alt="kris" />
             <div className=" text-center mt-1 p-4">
                 <h2 className="text-3xl text-zinc-50 font-semibold">Login</h2>
                 <h4 className=" text-zinc-50 font-semibold mt-2">Login to your account</h4>
@@ -83,8 +83,6 @@ function Login() {
                         
                             <input type="checkbox" className="w-4 h-4 cursor-pointer border-gray-300 bg-gray-300 focus:ring-blue-300 focus:ring-2 " /> 
                             <label htmlFor="" className="mt-2 mr-32  ml-2 text-md text-zinc-50">Remember Me</label>
-                        
-
                         <Link className="">
                             <label htmlFor="" className=" text-md ml-2 text-zinc-50">Reset Password?</label>
                         </Link>

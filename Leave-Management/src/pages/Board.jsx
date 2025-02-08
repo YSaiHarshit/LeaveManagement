@@ -5,10 +5,10 @@ function Board() {
 
     return (
 
-        <div className='flex bg-gray-200 w-[80%]'>
+        <div className='flex bg-gray-200'>
 
 
-            <div className="fixed top-0 mt-16 ml-16">
+            <div className="top-0 mt-8 ml-6">
                 <div className="ml-7">
                     <h2 className="text-xl text-black font-semibold">Dashboard</h2>
                 </div>
