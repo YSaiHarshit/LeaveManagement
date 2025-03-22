@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-
+import Sales from '../assets/Sales Executive - Applied Jobs.jpg';
+import User from '../assets/User Experience - Leave Management.jpg';
 
 function Board() {
 
@@ -43,7 +44,7 @@ function Board() {
 
                                 <div className="flex flex-col text-white items-center justify-center">
                                     <span className="text-5xl ml-4 font-bold">100</span>
-                                    <span className="text-2xl font-semibold ml-6    ">Candidates</span>
+                                    <span className="text-2xl font-semibold ml-6">Candidates</span>
                                 </div>
                             </button>
                         </Link>
@@ -73,7 +74,7 @@ function Board() {
                         </div>
 
                         <div className="flex bg-blue-200 p-4 items-center  ml-6 my-4  rounded-2xl">
-                            <Link to=""> <img src="src\assets\Sales Executive - Applied Jobs.jpg" alt="sales" className="cursor-pointer" />
+                            <Link to=""> <img src={Sales} className="cursor-pointer" />
                             </Link>
                             <div className="ml-4 flex-grow">
                                 <h2 className=" flex  text-xl font-bold">Sales Executive</h2>
@@ -82,7 +83,7 @@ function Board() {
                             <p className="text-sm text-gray-600 mt-12">20 min ago</p>
                         </div>
                         <div className="flex bg-blue-200 p-4 items-center  ml-6 my-4  rounded-2xl">
-                            <Link to=""> <img src="src\assets\User Experience - Leave Management.jpg" alt="user" className="cursor-pointer" />
+                            <Link to=""> <img src={User} alt="user" className="cursor-pointer" />
                             </Link>
                             <div className="ml-4 flex-grow">
                                 <h2 className=" flex  text-xl font-bold">User Exerience Design</h2>
@@ -105,8 +106,7 @@ function Board() {
                             </div>
 
                             <div className="flex bg-blue-200 p-4 items-center  ml-6 my-4  h-24 rounded-2xl">
-                                <Link to=""> <i className="fa-regular fa-circle-user cursor-pointer text-yellow-400 text-5xl" ></i>
-                                </Link>
+                                 <i className="fa-regular fa-circle-user cursor-pointer text-yellow-400 text-5xl" ></i>
                                 <div className="ml-4 flex-grow">
                                     <h2 className=" flex  text-xl font-bold">John Doe</h2>
                                     <p className=" mt-1 text-sm text-gray-950">Role:Product Manager</p>
